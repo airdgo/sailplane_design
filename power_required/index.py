@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("./Date/T7-VLM2-EF1(g1)-EF2(g1)-Inviscid+Drag-Final.csv")
+df = pd.read_csv("./Database/T7-VLM2-EF1(g1)-EF2(g1)-Inviscid+Drag-Final.csv")
 
 W = 400*9.81
 RHO = 1.225

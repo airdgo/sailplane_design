@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 
 # Read aerodynamic characteristics form the Database
-df = pd.read_excel("./Date/Database.xlsx")
+df = pd.read_excel("./Database/Database.xlsx")
 
 b = df["b"].to_numpy()
 me = df["We"].to_numpy()
